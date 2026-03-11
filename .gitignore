@@ -1,0 +1,50 @@
+# ── CREDENTIALS & SECRETS (CRITICAL) ──
+.env
+*.env
+config.json
+dashboard.db
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+.venv/
+
+# ── Runtime data ──
+data/*.json
+data/*.txt
+!data/.gitkeep
+
+# ── Logs ──
+logs/
+*.log
+*.log.*
+
+# ── Snapshots ──
+snapshots/
+
+# ── Backtest output ──
+backtest_output/
+
+# ── Old code & backups ──
+old code/
+*.bak
+*.pre_*.bak
+
+# ── IDE & OS ──
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Archives ──
+*.tar.gz
+*.zip
+
+# ── Misc ──
+setup_luxverum.sh
+.cache/
+trailing_audit
+backtest_report.html

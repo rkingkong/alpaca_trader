@@ -1,0 +1,29 @@
+# Luxverum Capital - Trading System Dependencies
+# Install: pip install -r requirements.txt
+
+# Alpaca Trading API
+alpaca-py>=0.21.0
+
+# AI Models
+anthropic>=0.39.0
+openai>=1.50.0
+
+# Data Sources
+finnhub-python>=2.4.0
+yfinance>=0.2.0
+fredapi>=0.5.0
+
+# Computation
+numpy>=1.26.0
+scipy>=1.11.0
+pandas>=2.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Timezone handling
+pytz>=2024.1
+
+# Optional: For news API
+newsapi-python>=0.2.7
