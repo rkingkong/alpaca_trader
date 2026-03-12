@@ -472,3 +472,22 @@ Examples:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+# ═══════════════════════════════════════════════════════════════════
+# TERMINAL UPGRADE v2.0 — Added 2026-03-11
+# ═══════════════════════════════════════════════════════════════════
+# To integrate news collection into your workflow, add these to
+# workflow_rebalance() after the signal intelligence step:
+#
+#   step(N, total, "News & Market Intelligence")
+#   results["news_intel"] = run("News Aggregator", "11_news_aggregator.py", ["--full"], critical=False)
+#
+#   step(N+1, total, "Dashboard Data Export")
+#   results["dashboard_export"] = run("Dashboard Export", "11_news_aggregator.py", ["--export"], critical=False)
+#
+# Also increment 'total' by 2 at the top of workflow_rebalance().
+#
+# Or run standalone:
+#   python 11_news_aggregator.py --full
+#   python 10_dashboard_server.py
+# ═══════════════════════════════════════════════════════════════════

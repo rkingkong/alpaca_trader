@@ -27,3 +27,5 @@ pytz>=2024.1
 
 # Optional: For news API
 newsapi-python>=0.2.7
+# === Terminal Upgrade v2.0 ===
+feedparser>=6.0.0
